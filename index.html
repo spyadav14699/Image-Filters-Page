@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Image Filters Page</h1>
+        
+        <p>Welcome to the Image Filters Page where you will be able to add custom filters to an uploaded image.</p>
+        
+        </div>  
+        
+        <p>
+        <canvas id="uploadcanvas"></canvas>
+        </p>  
+        
+        <p>
+        Choose Image: <input type="file" multiple ="false" accept ="image/*" id= "imgfile" onchange="loadImage()">
+        </p>
+        
+        <input type ="button" value = "Red Filter" onclick = "makeRed()">
+        
+        <input type ="button" value = "Grayscale Filter" onclick = "makeGray()">
+        
+        <input type ="button" value = "Green Filter" onclick = "makeGreen()">
+        
+        <input type ="button" value = "Reset Image" onclick = "resetImage()">
+        
+        
+</body>
+</html>
+
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">                   </script>
+<script src="./index.js"></script>

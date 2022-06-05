@@ -1,0 +1,25 @@
+body {
+    background-color: lightblue;
+    font-family: Verdana;
+    margin: 40px;
+  }
+  
+  div {
+    /*Styling the top "header" for my page*/
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: RoyalBlue;
+    border-width: 1px;
+    padding-left: 5px;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+  }
+  
+  h1{
+    font-family:Lato;
+  }
+  
+  canvas {
+    border: 1px solid #c3c3c3;
+    height: 200px;
+  }
